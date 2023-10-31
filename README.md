@@ -5,16 +5,17 @@
 This implementation involves a program that reads a <a href="https://en.wikipedia.org/wiki/Directed_graph" style="text-decoration: none;">directed graph</a> from user input, displaying its <a href="https://en.wikipedia.org/wiki/Strongly_connected_component" style="text-decoration: none;">strongly connected components</a>. If there are no cycles, it also provides its <a href="https://en.wikipedia.org/wiki/Topological_sorting" style="text-decoration: none;">topological sorting</a>.
 
 ## How it works
-First the program will read the <b>vertices and edges</b> number (v e), then after entering those values it will star to read the pairs of vertices (representing the edges). The graph is represented through an <b>adjacency list</b> and <b>depth-first search</b> is applied to find <b>strongly connected components</b>, <b>topological sorting</b>, and possible <b>cycles</b>.
+First the program will read the <b>vertices and edges</b> numbers (v e), then after entering those values it will star to read the pairs of vertices (representing the edges). The graph is represented through an <b>adjacency list</b> and <b>depth-first search</b> is applied to find <b>strongly connected components</b>, <b>topological sorting</b>, and possible <b>cycles</b>.
 
 ## How to use
 
 ### Input
-First of all it's necessary to inform the number of vertices and the number of edges in one line (v e), as and exemple for a graph with 6 vertices and 6 edges:
+First of all it's necessary to inform the number of vertices and the number of edges in one line (v e). An example for a graph with 6 vertices and 6 edges:
+
 ```
 6 6
 ```
-then, press enter and start to input each edge path, from a vertice to another, an example of input will be:
+then, press enter and start to input each edge path, from a vertice to another, an example of complete input will be:
 
 ```
 6 6 
